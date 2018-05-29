@@ -25,6 +25,6 @@ function deepestChild(){
     }
   }
 
-  goDeeper(grandNode)
+  goDeeper()
 
 }
