@@ -26,6 +26,6 @@ function deepestChild(){
     }
   }
 
-  goDeeper()
+  return goDeeper()
 
 }
