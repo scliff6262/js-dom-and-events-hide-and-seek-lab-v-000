@@ -20,10 +20,7 @@ function deepestChild(){
     if (grandNode.querySelector('div')){
       grandNode = grandNode.querySelector('div')
       goDeeper()
-    } else {
-      debugger;
-      return grandNode
-    }
+    } 
   }
 
   goDeeper()
