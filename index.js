@@ -22,7 +22,7 @@ function deepestChild(){
       goDeeper()
     } else {
       debugger;
-      return grandNode.innerHTML
+      return grandNode
     }
   }
 
