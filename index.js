@@ -17,7 +17,7 @@ function deepestChild(){
   let grandNode = document.querySelector('#grand-node')
 
   function goDeeper(){
-    if (document.querySelector(grandNode)){
+    if (grandNode.querySelector('div')){
       grandNode = grandNode.querySelector('div')
       goDeeper()
     } else {
