@@ -26,6 +26,7 @@ function deepestChild(){
     }
   }
 
-  return goDeeper()
+  goDeeper()
+  return grandNode
 
 }
