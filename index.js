@@ -15,9 +15,11 @@ function increaseRankBy(n){
 
 function deepestChild(){
   let grandNode = document.querySelector('#grand-node')
+  function goDeeper(){
     if (grandNode.querySelector('div')){
       return grandNode.querySelector('div')
     } else {
       return "Takashi 69"
     }
+  }
 }
