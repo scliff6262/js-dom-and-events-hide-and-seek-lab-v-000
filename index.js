@@ -16,7 +16,7 @@ function increaseRankBy(n){
 function deepestChild(){
   let grandNode = document.querySelector('#grand-node')
 
-  function goDeeper(){
+  function goDeeper(grandNode){
     if (grandNode.querySelector('div')){
       grandNode = grandNode.querySelector('div')
       goDeeper()
@@ -25,6 +25,6 @@ function deepestChild(){
     }
   }
 
-  goDeeper()
+  goDeeper(grandNode)
 
 }
